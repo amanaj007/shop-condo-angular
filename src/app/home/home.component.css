@@ -1,0 +1,24 @@
+.div-home{
+    position: relative;
+}
+
+.home-img{
+    width: -webkit-fill-available;
+}
+
+.div-home-1{
+    position: absolute;
+    margin-top: -31%;
+    margin-left: 55.5%; 
+    color: white;
+}
+
+.hr-style{
+    border: 1px solid white; 
+    width: 25%; 
+    font-weight: 600;
+}
+
+.button-home{
+    font-weight: 600;
+}

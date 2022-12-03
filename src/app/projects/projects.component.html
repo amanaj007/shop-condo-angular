@@ -1,0 +1,39 @@
+<div class="div-top">
+
+    <div class="div-top-1">
+        <h2>Latest Projects</h2>
+        <div class="div-top-2">
+
+            <h5 class="h5-1">View all</h5>
+            <h5 class="h5-2">›</h5>
+        </div>
+
+    </div>
+    <div class="div-top-3">
+        <div style="display: flex;">
+        <div *ngFor="let data of datas" class="card div-card">
+            <img class="card-img-top img-padd" src={{data.image}} alt="">
+            <h3 class="div-top-3-h3">{{data.avai}}</h3>
+            <div class="card-body" style="color: black;">
+                <h6 class="card-text div-top-3-h6">{{ data.place }}</h6>
+                <h3 class="card-title">{{data.name}}</h3>
+                <h6 class="card-text div-top-3-h6">{{data.price}}</h6>
+                <h6 class="card-text div-top-3-h6">{{data.date}}</h6>
+            </div>
+        </div>
+        </div>
+        <div style="display: flex;">
+        <div *ngFor="let data of datas" class="card div-card">
+            <img class="card-img-top img-padd" src={{data.image}} alt="">
+            <h3 class="div-top-3-h3">Coming soon</h3>
+            <div class="card-body" style="color: black;">
+                <h6 class="card-text div-top-3-h6">{{ data.place }}</h6>
+                <h3 class="card-title">{{data.name}}</h3>
+                <h6 class="card-text div-top-3-h6">{{data.price}}</h6>
+                <h6 class="card-text div-top-3-h6">{{data.date}}</h6>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</div>
